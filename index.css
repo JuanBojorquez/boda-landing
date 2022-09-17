@@ -1,0 +1,163 @@
+
+
+body{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  font-style: italic;
+  font-size: xx-large;
+}
+
+#portada{
+  height: 100vh;
+  width: 100vh;
+  background: no-repeat url("./img/boda.jpg");
+  background-size: 100% 100%;
+  flex: auto;
+}
+
+div{
+  text-align: center;
+  align-items: center;
+}
+
+
+#cuenta {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  color: #212529;
+}
+
+.simply-section {
+  background: #fff;
+  width: 100px;
+  height: 100px;
+  margin: 0 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.simply-amount {
+  display: block;
+  font-size: 50px;
+  font-weight: 700;
+  border: 1px;
+}
+
+.simply-word {
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.itinerario{
+  background-color: #152f4c; 
+  width: 100%;
+  height: 100%;
+  margin-top: -55px;
+  color: #fff;
+}
+
+.local{
+  height: 85vh;
+  width: 100%;
+}
+
+.margin{
+  margin-top: 55px;
+}
+
+.margin2{
+  margin-bottom: 0px;
+}
+
+a{
+  color: #d28a55 !important;
+  font-weight: bolder;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.etiqueta{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.dresscode-block{
+  padding: 5%;
+  margin-top: 20px;
+}
+
+.centered-content-block{
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.sm-line-height{
+  line-height: 1rem;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0px;
+}
+
+.fourth-color-text{
+  color: #a4a4a4;
+}
+
+.third-color-text{
+  color: #727475;
+}
+
+h3{
+  font-size: 28px;
+  margin-top: 0;
+}
+
+h4{
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.dresscode-block .first-quarter, .dresscode-block .last-quarter {
+
+  padding: 2%;
+}
+
+
+.dresscode-block .first-quarter .content{
+  background-color: #fbfbfb;
+  padding: 15%;
+  width: 100%;
+}
+
+.dresscode-block .first-quarter{
+  background-color: #152f4c;
+}
+
+.dresscode-block .last-quarter{
+  background-color: #d28a55
+}
+
+.dresscode-block .last-quarter .content{
+  background-color: #fbfbfb;
+  padding: 20% 15%;
+  width: 100%;
+}
+
+.location-info-box{
+  background-color: #152f4c;
+  padding: 5%;
+}
