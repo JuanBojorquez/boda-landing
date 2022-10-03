@@ -41,6 +41,7 @@ const crearCodigoConfirmacionHTML = () => {
     let codigoHTML = `<div
     class="inv-card col-lg-4 col-md-5 col-sm-8 col-10 p-3 mx-auto flex-column justify-content-start"
   >
+
     <h2 class="card-head">Confirmacion</h2>
     <p class="mt-3">
       INGRESA TU NOMBRE O CÓDIGO DE INVITADO Y DA CLIC EN BUSCAR
